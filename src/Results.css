@@ -2,3 +2,7 @@
   text-align: left;
   padding: 10px 30px;
 }
+
+.Results .Example {
+  opacity: 0.6;
+}
