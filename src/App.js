@@ -8,7 +8,7 @@ function App() {
         <h1>Dictionary</h1>
         <Dictionary />
         <footer>
-          Check the open source on{" "}
+          Coded by Stephanie Lahellec. Check the open source on{" "}
           <a
             href="https://github.com/slahel/dictionary"
             target="_blank"
