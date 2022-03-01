@@ -9,7 +9,13 @@ function App() {
         <Dictionary />
         <footer>
           Check the open source on{" "}
-          <a href="https://github.com/slahel/dictionary">GitHub</a>
+          <a
+            href="https://github.com/slahel/dictionary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
         </footer>
       </div>
     </div>
