@@ -1,8 +1,32 @@
 .App {
   text-align: center;
 }
+.App header {
+  background-color: #052962;
+  color: white;
+  margin: 20px 30px;
+  padding: 30px 10px;
+  border-radius: 3px;
+  box-shadow: 15px 15px 3px 2px rgba(0, 0, 0, 0.1);
+}
 .App footer {
   font-size: 12px;
   opacity: 0.6;
   margin: 30px 0px;
+}
+.App a {
+  text-decoration: none;
+}
+.App .searchBar {
+  padding: 12px 8px;
+  margin: 10px 30px;
+  width: 50%;
+  border-radius: 25px;
+}
+.App .btn {
+  padding: 12px 8px;
+  width: 10%;
+  border-radius: 25px;
+  background-color: #f8c446;
+  font-weight: bolder;
 }
