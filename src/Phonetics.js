@@ -10,7 +10,7 @@ export default function Phonetics(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon="fa-regular fa-volume" />
+          🔈
         </a>
         <span>{props.phonetic.text}</span>
       </div>
