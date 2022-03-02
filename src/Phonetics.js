@@ -1,5 +1,4 @@
 import React from "react";
-import { FaVolumeUp } from "react-icons/fa";
 
 export default function Phonetics(props) {
   console.log(props.phonetic);
@@ -11,7 +10,7 @@ export default function Phonetics(props) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaVolumeUp />
+          🔈
         </a>
         <span>{props.phonetic.text}</span>
       </div>
