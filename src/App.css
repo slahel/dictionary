@@ -9,6 +9,9 @@
   border-radius: 3px;
   box-shadow: 15px 15px 3px 2px rgba(0, 0, 0, 0.1);
 }
+.App h1 {
+  font-size: 50px;
+}
 .App footer {
   font-size: 12px;
   opacity: 0.6;

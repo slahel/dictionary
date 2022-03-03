@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import "./App.css";
+import { RiSearchEyeFill } from "react-icons/ri";
 
 export default function Dictionary() {
   let [searchWord, setSearchWord] = useState(null);
@@ -23,7 +24,11 @@ export default function Dictionary() {
   return (
     <div className="dictionary">
       <header>
-        <h1>Dictionary</h1>
+        <h1>
+          <RiSearchEyeFill />
+          {"  "}
+          Dictionary
+        </h1>
         <form onSubmit={handleSubmit}>
           <input
             className="searchBar"
