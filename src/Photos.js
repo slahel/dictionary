@@ -13,7 +13,7 @@ export default function Photos(props) {
                 <a
                   href={photo.src.original}
                   target="_blank"
-                  rel="noopener no_referrer"
+                  rel="noopener noreferrer"
                 >
                   <img
                     src={photo.src.tiny}
