@@ -6,7 +6,11 @@ export default function Meaning(props) {
   return (
     <div className="Meaning">
       <h4>
-        <FaBookOpen /> {props.meaning.partOfSpeech}
+        <span>
+          <FaBookOpen />
+        </span>
+        {"  "}
+        <span>{props.meaning.partOfSpeech}</span>
       </h4>
       {props.meaning.definitions.map(function (definition, index) {
         return (
