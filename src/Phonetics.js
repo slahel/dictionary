@@ -2,7 +2,7 @@ import React from "react";
 import { FaVolumeUp } from "react-icons/fa";
 
 export default function Phonetics(props) {
-  console.log(props.phonetic);
+  //console.log(props.phonetic);
   if (props.phonetic.audio) {
     return (
       <div>
