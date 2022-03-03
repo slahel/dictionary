@@ -27,9 +27,9 @@
   border-radius: 25px;
 }
 .App .btn {
-  padding: 12px 8px;
-  width: 10%;
-  border-radius: 25px;
   background-color: #f8c446;
+  padding: 12px 10px;
+  border-radius: 25px;
+  width: 100px;
   font-weight: bolder;
 }
