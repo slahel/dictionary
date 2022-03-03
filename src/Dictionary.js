@@ -5,7 +5,7 @@ import "./App.css";
 import { RiSearchEyeFill } from "react-icons/ri";
 
 export default function Dictionary() {
-  let [searchWord, setSearchWord] = useState(null);
+  let [searchWord, setSearchWord] = useState("welcome");
   let [results, setResults] = useState(null);
   function getResponse(response) {
     //console.log(response.data[0]);
