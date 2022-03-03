@@ -1,7 +1,7 @@
 .Results {
   text-align: left;
   padding: 0px 30px;
-  color: #1d2a57;
+  color: #002324;
 }
 
 .Results .Example {
@@ -9,6 +9,7 @@
 }
 .Results a {
   text-decoration: none;
+  color: #2c786c;
   font-size: 25px;
   margin: 0 15px 0 0;
 }
@@ -24,7 +25,7 @@
   font-weight: bolder;
 }
 .Results h4 {
-  background-color: #f8c446;
+  background-color: #f8b400;
   padding: 5px 20px;
   border-radius: 25px;
   width: 70px;
