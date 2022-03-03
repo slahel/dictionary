@@ -44,6 +44,7 @@ export default function Dictionary() {
             <input
               className="searchBar"
               type="search"
+              placeholder="Suggested words: hello, table, sun,..."
               onChange={handleSearchWord}
             ></input>
             <input className="btn" type="submit"></input>
